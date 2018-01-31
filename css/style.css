@@ -1,0 +1,12 @@
+body {
+	background: linear-gradient(#0F496D, #182E3B);
+	background-color:#182E3B;
+}
+
+.bg-pattern {
+	background-image: url("../a/img/bg-ptn.png");
+	background-repeat: repeat;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+}
