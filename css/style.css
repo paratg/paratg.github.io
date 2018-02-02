@@ -90,8 +90,8 @@ body {
 
 body p {
 	text-align: center;
-	font-size: 30px;
-	margin-top: 30px;
+	font-size: 90px;
+	margin-top: 90px;
 }
 
 .bg-pattern {
@@ -125,7 +125,7 @@ body p {
 .callout img {
 	display: block;
 	margin: 0 auto;
-	width: 180px;
+	width: 440px;
 	height: auto;
 }
 
@@ -133,13 +133,13 @@ body p {
 	margin: 0 5px;
 }
 
-@media screen and (max-width: 40em){
+@media only screen and (min-device-width: 600px) {
 	.callout img {
-		width: 230px;
+		width: 180px;
 		height: auto;
 	}
 	body p {
-		font-size: 90px;
-		margin-top: 90px;
+		font-size: 30px;
+		margin-top: 30px;
 	}
 }
